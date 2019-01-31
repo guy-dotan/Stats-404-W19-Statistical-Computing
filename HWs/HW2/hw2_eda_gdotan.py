@@ -8,9 +8,8 @@
 
 import pandas as pd
 import glob
-import os
 
-path = 'HW2/social-power-nba/'
+path = 'Repository/HWs/HW2/social-power-nba'
 filelist = glob.glob(path + "/*.csv")
 filename = [s.replace('.csv', '').replace(path,'') for s in filelist]
 

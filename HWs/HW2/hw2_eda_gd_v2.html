@@ -11781,13 +11781,13 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[195]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">     File name: hw2_eda_gd_v2.ipynb</span>
 <span class="sd">     Author: Guy Dotan</span>
-<span class="sd">     Date: 01/27/2019</span>
+<span class="sd">     Date: 01/30/2019</span>
 <span class="sd">     Course: UCLA Stats 404</span>
 <span class="sd">     Description: HW #2. Exploratory data analysis on the NBA stats and social media dataset.</span>
 <span class="sd"> &#39;&#39;&#39;</span>
@@ -11796,7 +11796,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">glob</span>
 <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
 
-<span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;/Users/Guy/Documents/UCLA MAS/2019 Winter/STATS 404/HWs/social-power-nba/&#39;</span>
+<span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;social-power-nba/&#39;</span>
 <span class="n">filelist</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s2">&quot;/*.csv&quot;</span><span class="p">)</span>
 <span class="n">filename</span> <span class="o">=</span> <span class="p">[</span><span class="n">s</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">path</span><span class="p">,</span><span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">filelist</span><span class="p">]</span>
 
@@ -11821,7 +11821,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[196]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dims_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;filename&#39;</span><span class="p">,</span><span class="s1">&#39;dimension&#39;</span><span class="p">])</span>
